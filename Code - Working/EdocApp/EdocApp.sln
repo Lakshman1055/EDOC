@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdocApp.BusinessLogic", "EdocApp.BusinessLogic\EdocApp.BusinessLogic.csproj", "{2D66DF6B-7C40-4CF4-91FF-5DEA7187E8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdocApp.DataAcess", "EdocApp.DataAcess\EdocApp.DataAcess.csproj", "{53F22897-3F1E-4FD5-9711-76A1AA8232E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdocApp.Web", "EdocApp.Web\EdocApp.Web.csproj", "{BF91E15A-F64D-4E33-84DB-D5DA70FDB16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdocApp.DataModel", "EdocApp.DataModel\EdocApp.DataModel.csproj", "{3F3B3F8B-F7CA-490F-8208-133F4E6D7300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D66DF6B-7C40-4CF4-91FF-5DEA7187E8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D66DF6B-7C40-4CF4-91FF-5DEA7187E8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D66DF6B-7C40-4CF4-91FF-5DEA7187E8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D66DF6B-7C40-4CF4-91FF-5DEA7187E8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F22897-3F1E-4FD5-9711-76A1AA8232E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F22897-3F1E-4FD5-9711-76A1AA8232E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F22897-3F1E-4FD5-9711-76A1AA8232E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F22897-3F1E-4FD5-9711-76A1AA8232E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF91E15A-F64D-4E33-84DB-D5DA70FDB16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF91E15A-F64D-4E33-84DB-D5DA70FDB16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF91E15A-F64D-4E33-84DB-D5DA70FDB16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF91E15A-F64D-4E33-84DB-D5DA70FDB16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3B3F8B-F7CA-490F-8208-133F4E6D7300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3B3F8B-F7CA-490F-8208-133F4E6D7300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3B3F8B-F7CA-490F-8208-133F4E6D7300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3B3F8B-F7CA-490F-8208-133F4E6D7300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
