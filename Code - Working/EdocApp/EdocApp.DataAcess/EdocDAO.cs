@@ -108,9 +108,10 @@ namespace EdocApp.DataAccess
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                  int result;
-                
-              
-                 result=(int)sqlParameters[3].Value;
+
+                int n;
+                bool isNumeric = int.TryParse(sqlParameters[3].Value.ToString(), out n);
+                result = isNumeric == true?n:0;
                 
              
                 cmd.Connection.Close();
